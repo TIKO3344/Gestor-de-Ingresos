@@ -1,0 +1,64 @@
+====================================================================================================
+                            INFORME FORMAL DE INGRESOS DE TESORERIA
+                                   MES DE NOVIEMBRE DE 2026
+====================================================================================================
+
+1. LISTADO GENERAL Y VALIDACION DE APORTACIONES
+----------------------------------------------------------------------------------------------------
+N°  | FECHA        | NOMBRE DEL APORTADOR   | CEDULA     | CORREO ELECTRONICO          | MONTO ($)  | ESTADO
+----------------------------------------------------------------------------------------------------
+01  | Lunes 2      | Juan Carlos Perez      | 1723456789 | juan.perez@gmail.com        | $150.00    | VALIDO
+02  | Lunes 2      | Maria Fernanda Lopez   | 1712345678 | maria.lopez@hotmail.com     | $200.00    | VALIDO
+03  | Lunes 2      | Pedro Sanchez          | 1724567890 | pedro.sanchez@gmail.com     | $75.50     | VALIDO
+04  | Martes 3     | Andres Molina          | 1723456781 | andres.molina@gmail.com     | $120.00    | VALIDO
+05  | Martes 3     | Carolina Torres        | 1719876543 | carolina.torres.com         | $85.00     | INCORRECTO [Correo]
+06  | Martes 3     | Roberto Diaz           | 1725678901 | roberto.diaz@gmail.com      | $300.00    | VALIDO
+07  | Martes 3     | Luis Herrera           | 1726789012 | luis.herrera@gmail.com      | $50.00     | VALIDO
+08  | Miercoles 4  | Gabriela Ruiz          | 1727890123 | gabriela.ruiz@gmail.com     | $95.00     | VALIDO
+09  | Miercoles 4  | Fernando Castro        | 1728901234 | fernando.castro@gmail.com   | $110.00    | VALIDO
+10  | Miercoles 4  | Daniela Vega           | 1729012345 | daniela.vega@gmail.com      | $45.75     | VALIDO
+11  | Miercoles 4  | Miguel Angel           | 12345678   | miguel.angel@gmail.com      | $60.00     | INCORRECTO [Cedula]
+12  | Jueves 5     | Paola Cardenas         | 1730123456 | paola.cardenas@gmail.com    | $180.00    | VALIDO
+13  | Jueves 5     | Jorge Ramirez          | 1731234567 | jorge.ramirez@gmail.com     | $90.00     | VALIDO
+14  | Jueves 5     | Veronica Flores        | 1732345678 | veronica.flores@gmail.com   | $125.50    | VALIDO
+15  | Jueves 5     | Esteban Morales        | 1733456789 | esteban.morales@gmail.com   | $70.00     | VALIDO
+16  | Viernes 6    | Natalia Romero         | 1734567890 | natalia.romero@gmail.com    | $210.00    | VALIDO
+17  | Viernes 6    | Santiago Ortiz         | 1735678901 | santiagooritzyahoo.com      | $55.00     | INCORRECTO [Correo]
+18  | Viernes 6    | Cristina Leon          | 1736789012 | cristina.leon@gmail.com     | $135.00    | VALIDO
+19  | Viernes 6    | Diego Paredes          | 1737890123 | diego.paredes@gmail.com     | $80.00     | VALIDO
+20  | Sabado 7     | Ana Belen Ruiz         | 1738901234 | ana.ruiz@gmail.com          | $160.00    | VALIDO
+21  | Sabado 7     | Pablo Jimenez          | 1739012345 | pablo.jimenez@gmail.com     | $40.00     | VALIDO
+22  | Sabado 7     | Sofia Andrade          | 173012345  | sofia.andrade@gmail.com     | $65.00     | INCORRECTO [Cedula]
+23  | Sabado 7     | Ricardo Nunez          | 1741234567 | ricardo.nunez@gmail.com     | $250.00    | VALIDO
+24  | Domingo 8    | Monica Salazar         | 1742345678 | monica.salazar@gmail.com    | $115.00    | VALIDO
+25  | Domingo 8    | Javier Cevallos        | 1743456789 | javier.cevallos@gmail.com   | $100.00    | VALIDO
+26  | Domingo 8    | Patricia Gomez         | 1744567890 | patricia@@gmail.com         | $90.00     | INCORRECTO [Correo]
+27  | Domingo 8    | Felipe Arias           | 1745678901 | felipe.arias@gmail.com      | $175.25    | VALIDO
+28  | Lunes 9      | Teresa Molina          | 1746789012 | teresa.molina@gmail.com     | $0.00      | INCORRECTO [Monto]
+29  | Lunes 9      | Oscar Benitez          | 1747890123 | oscar.benitez@gmail.com     | $220.00    | VALIDO
+30  | Lunes 9      | Ricardo Vera           | 1748901234 | ricardo.vera@gmail.com      | $145.00    | VALIDO
+31  | Lunes 9      | Gabriela Torres        | 1749012345 | gabriela.torres@gmail.com   | $80.50     | VALIDO
+----------------------------------------------------------------------------------------------------
+
+2. DETALLE DE REGISTROS CON ERRORES (EXCLUIDOS DEL TOTAL)
+----------------------------------------------------------------------------------------------------
+- Registro 05 (Carolina Torres) : Correo invalido (carolina.torres.com - falta simbolo @)
+- Registro 11 (Miguel Angel)    : Cedula invalida (12345678 - tiene 8 digitos en lugar de 10)
+- Registro 17 (Santiago Ortiz)  : Correo invalido (santiagooritzyahoo.com - falta simbolo @)
+- Registro 22 (Sofia Andrade)   : Cedula invalida (173012345 - tiene 9 digitos en lugar de 10)
+- Registro 26 (Patricia Gomez)  : Correo invalido (patricia@@gmail.com - tiene doble @@)
+- Registro 28 (Teresa Molina)   : Monto invalido  (0 dolares - el monto debe ser mayor a 0)
+----------------------------------------------------------------------------------------------------
+
+3. RESUMEN FINANCIERO Y AUDITORIA DE ERRORES
+----------------------------------------------------------------------------------------------------
+Total de registros analizados            : 31
+Total de registros 100% validos          : 25
+Total de registros con errores           : 6
+  * Cantidad de cedulas con error        : 2
+  * Cantidad de correos con error        : 3
+  * Cantidad de montos con error         : 1
+----------------------------------------------------------------------------------------------------
+TOTAL DE DINERO VALIDO RECAUDADO         : $3322.50 USD
+====================================================================================================
+Registro adicional de Jhonathan , cédula 1724757040, correo jj1133546@gmail.com, entregó $$50026.
